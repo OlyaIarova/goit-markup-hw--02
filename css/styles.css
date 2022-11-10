@@ -8,7 +8,7 @@
   --primary-btn-color: #ffffff;
   --primari-footer-color: rgba(255, 255, 255, 0.6);
   --accent-color: #2196f3;
-  --primary-bg-color: #f5f5f5;
+  --primary-bg-color: #FFFFFF;
   --title-bg-color: #f5f4fa;
   --black-bg: #2f303a;
 }
@@ -21,6 +21,9 @@ body {
 }
 ul {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 .visually-hidden {
     position: absolute;
@@ -36,10 +39,8 @@ ul {
 .logo-black {
   font-family: "Raleway", cursive;
   color: #000000;
-  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  text-decoration: none;
 }
 .logo-bluу {
   color: var(--accent-color);
@@ -47,17 +48,13 @@ ul {
 
 /*-----------------------site-nav-------------------*/
 .site-nav .list {
-  color: var(--primary-text-color);
-  font-style: normal;
+  color: var(--primary-text-color); 
   font-weight: 500;
   font-size: 14px;
   line-height: calc(14 / 16);
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
-.site-nav.list .current {
-  color: var(--accent-color);
-}
+
 .site-nav .list:hover,
 .site-nav .list:focus {
   color: var(--accent-color);
@@ -70,15 +67,12 @@ ul {
   font-size: 14px;
   line-height: calc(14 / 16);
   letter-spacing: 0.02em;
-  text-decoration: none;
 }
 .auth-nav .list:hover,
 .auth-nav .list:focus {
   color: var(--accent-color);
 }
-.auth-nav.list .current{
-    color: var(--accent-color);  
-}
+
 /*-------------------------hero----------------------*/
 .hero {
   background: var(--black-bg);
@@ -94,7 +88,6 @@ ul {
 /*------------------------section-------------------*/
 .section-title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
@@ -107,7 +100,6 @@ ul {
   text-align: center;
 }
 .team-list .link {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -119,12 +111,10 @@ ul {
 /*----------------------feature---------------------*/
 .feature-list .title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
 }
 .feature-list .link {
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
 }
@@ -143,7 +133,6 @@ ul {
   line-height: calc(26 / 16);
 }
 .button secondary {
-  color: var(--primary-text-color);
   background: var(--primary-bg-color);
 }
 .button.primary:hover,
@@ -155,7 +144,7 @@ ul {
 
 .button:hover,
 .button:focus {
-  color: var(--white);
+  color: var(--primary-btn-color);
   background: var(--accent-color);
 }
 
@@ -163,13 +152,11 @@ ul {
 
 .portfolio-list .title {
   color: var(--primary-text-color);
-  font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
 }
 .portfolio-list .link {
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
 }
@@ -177,23 +164,18 @@ ul {
 /*-------------------- footer-------------------- */
 .page-footer {
   background: var(--black-bg);
-  text-decoration: none;
 }
 .logo-white {
   color: var(--primary-logo-color);
   font-family: "Raleway", cursive;
-  font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  text-decoration: none;
 }
 .auth-address {
   color: var(--primary-link-color);
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
-  text-decoration: none;
 }
 .auth-address:hover,
 .auth-address:focus {
@@ -201,10 +183,8 @@ ul {
 }
 .auth-address .list {
   color: var(--primari-footer-color);
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
-  text-decoration: none;
 }
 .auth-address .list:hover,
 .auth-address .list:focus {
